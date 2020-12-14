@@ -298,7 +298,7 @@ $(document).ready(function () {
             },
             width: "120%",
             height: "71.25vw",
-            bottom: "38%",
+            top: "19%",
         })
         gsap.to('.ppt2-bluebackground', {
             scrollTrigger: {
@@ -370,7 +370,7 @@ $(document).ready(function () {
             width: '96.38888888888889VW',
             height: '63.14814814814815VW',
             left: '1.8VW',
-            bottom: '52%'
+            top: '8%'
         })
 
         gsap.to('.ppt2-telefon', {
