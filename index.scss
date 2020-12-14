@@ -1,0 +1,622 @@
+@import url("./fonts.css");
+// @media screen and (orientation: portrait) {
+// }
+
+// @media not screen and (orientation: portrait) {
+// }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Campton Black";
+  scroll-behavior: smooth;
+}
+html,
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  width: 100%;
+  height: 4.8%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.showroom-container {
+  width: 100%;
+  height: 95.2%;
+  position: fixed;
+  top: 4.8%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e8e9ea;
+}
+
+.showroom-innerwrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+// ------------------------- PPT1 ----------------------------
+// ------------------------- PPT1 ----------------------------
+// ------------------------- PPT1 ----------------------------
+.ppt1-wrapper {
+  width: 100%;
+  height: 88.12910284463895%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+.whitesnake-1 {
+  background-color: #ffffff;
+  padding: 1.7592592592592593vw 5.833333333333333vw 1.3888888888888888vw
+    4.2592592592592595vw;
+  color: #d62631;
+  font-size: 7.592592592592593vw;
+  line-height: 7.592592592592593vw;
+  font-weight: 700;
+  text-align: end;
+  position: absolute;
+  right: -50vw;
+  bottom: 32.20569%;
+  z-index: 11;
+}
+
+.ppt1-title {
+  color: #ffffff;
+  font-size: 6.018518518518518vw;
+  line-height: 6.018518518518518vw;
+  font-weight: 700;
+  position: absolute;
+  right: -68vw;
+  bottom: 25.5%;
+  z-index: 11;
+}
+
+.ppt1-subtitle {
+  color: #ffffff;
+  font-size: 4.62962962962963vw;
+  line-height: normal;
+  font-weight: 500;
+  text-align: right;
+  position: absolute;
+  right: -95vw;
+  bottom: 15.5%;
+  z-index: 11;
+  letter-spacing: -0.13796296296296295vw;
+}
+
+.ppt1-button-1 {
+  font-size: 3.7037037037037033vw;
+  line-height: 3.7037037037037033vw;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #59595b;
+  text-align: center;
+  padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
+    2.685185185185185vw;
+  position: absolute;
+  right: -32vw;
+  bottom: 5%;
+  z-index: 11;
+}
+.ppt1-button-1:active {
+  background-color: #59595b;
+  color: #ffffff;
+}
+
+.phone-container {
+  //   width: 64.81481481481481VW;
+  //   height: 130.83333333333334VW;
+  position: relative;
+  top: 20%;
+  z-index: 10;
+  width: 114.81481481481vw;
+  height: 230.83333333333334vw;
+  border-radius: 12%;
+}
+
+.phone-innerwrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.tel-ram {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border-radius: 12%;
+}
+
+.tel-viewport {
+  width: 92%;
+  height: 97.5%;
+  position: absolute;
+  top: 1%;
+  left: 4.2%;
+  border-radius: 12%;
+  overflow: hidden;
+}
+
+.tel-viewport-innerwrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 12%;
+}
+
+.ppt1-viewport-img1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.ppt1-viewport-img2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.ppt1-viewport-img3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  z-index: 1;
+}
+.ppt1-viewport-img4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  z-index: 1;
+}
+
+.ppt1-button-2 {
+  font-size: 3.7037037037037033vw;
+  line-height: 3.7037037037037033vw;
+  font-weight: 500;
+  background-color: #6d6e71;
+  color: #ffffff;
+  text-align: center;
+  padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
+    2.685185185185185vw;
+  opacity: 0;
+}
+
+.ppt1-button-2:active {
+  background-color: #ffffff;
+  color: #6d6e71;
+}
+
+// ------------------------- PPT2 ----------------------------
+// ------------------------- PPT2 ----------------------------
+// ------------------------- PPT2 ----------------------------
+
+.ppt2-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 20;
+}
+.ppt2-innerwrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.ppt2-bluebackground {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  transform: scale(1);
+}
+.ppt2-bluebackground-after {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  transform: scale(1);
+}
+
+.whitesnake-2 {
+  background-color: #ffffff;
+  padding: 1.8518518518518516vw 5.833333333333333vw 1.3888888888888888vw
+    3.2407407407407405vw;
+  color: #d62631;
+  font-size: 7.592592592592593vw;
+  line-height: 7.592592592592593vw;
+  font-weight: 700;
+  text-align: end;
+  position: absolute;
+  right: -100vw;
+  bottom: 34.5%;
+  z-index: 12;
+}
+
+.ppt2-title {
+  color: #ffffff;
+  font-size: 6.018518518518518vw;
+  line-height: 7.4vw;
+  font-weight: 700;
+  position: absolute;
+  right: -100vw;
+  bottom: 25%;
+  z-index: 12;
+  text-align: end;
+}
+
+.ppt2-subtitle {
+  color: #ffffff;
+  font-size: 4.62962962962963vw;
+  line-height: normal;
+  font-weight: 500;
+  text-align: right;
+  position: absolute;
+  right: -100vw;
+  bottom: 21%;
+  z-index: 12;
+  letter-spacing: -0.13796296296296295vw;
+}
+
+.ppt2-button-1 {
+  font-size: 3.7037037037037033vw;
+  line-height: 3.7037037037037033vw;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #59595b;
+  text-align: center;
+  padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
+    2.685185185185185vw;
+  position: absolute;
+  right: -100vw;
+  bottom: 14%;
+  z-index: 12;
+}
+.ppt2-button-1:active {
+  background-color: #59595b;
+  color: #ffffff;
+}
+
+.ppt2-tv-container {
+  width: 129.72222222222223vw;
+  height: 85vw;
+  position: absolute;
+  bottom: 31%;
+  left: -12%;
+  z-index: 9;
+}
+.ppt2-tv-innerwrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.ppt2-tv-ram {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ppt2-tv-viewport {
+  width: 99.8%;
+  height: 85%;
+  position: absolute;
+  top: 0.5%;
+  left: 0.1%;
+  border: 1px solid yellowgreen;
+  z-index: 9;
+}
+.ppt2-tv-viewport-innerwrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.ppt2-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+}
+
+.ppt2-stb {
+  width: 33.14814814814815vw;
+  height: 33.33333333333333vw;
+  position: absolute;
+  left: -50vw;
+  bottom: 51%;
+  z-index: 11;
+}
+.ppt2-telefon {
+  width: 24.074074074074073vw;
+  height: 34.53703703703704vw;
+  position: absolute;
+  right: -35vw;
+  bottom: 51%;
+  z-index: 11;
+}
+
+.ppt2-offer-banner-1 {
+  width: 100%;
+  height: 56.388888888888886vw;
+  position: absolute;
+  left: 100%;
+  bottom: 14%;
+  z-index: 11;
+  & > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ppt2-tv-slides-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ppt2-tv-slides-innerwrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.ppt2-tv-slide-1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.ppt2-tv-slide1-column1 {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  top: 200%;
+  left: 0;
+}
+.ppt2-tv-slide1-column2 {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  top: 200%;
+  left: 25%;
+}
+.ppt2-tv-slide1-column3 {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  top: 200%;
+  left: 50%;
+}
+.ppt2-tv-slide1-column4 {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  top: 200%;
+  left: 75%;
+}
+.ppt2-tv-slide-2{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 99%;
+  top: 0;
+}
+.ppt2-offer-banner-2 {
+  width: 100%;
+  height: 56.388888888888886vw;
+  position: absolute;
+  left: 102%;
+  bottom: 14%;
+  z-index: 11;
+  & > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// ------------------------- PPT3 ----------------------------
+// ------------------------- PPT3 ----------------------------
+// ------------------------- PPT3 ----------------------------
+
+.ppt3-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 30;
+}
+.ppt3-innerwrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url("./images/homepage-ppt3-background-mobile.png");
+  background-size: cover;
+  background-position: center;
+}
+.whitesnake-3 {
+  background-color: #ffffff;
+  padding: 1.8518518518518516vw 5.833333333333333vw 1.3888888888888888vw
+    3.2407407407407405vw;
+  color: #d62631;
+  font-size: 7.592592592592593vw;
+  font-weight: 700;
+  text-align: end;
+  position: absolute;
+  right: -100vw;
+  bottom: 34.5%;
+  z-index: 12;
+  text-transform: uppercase;
+}
+
+.ppt3-button {
+  font-size: 3.7037037037037033vw;
+  line-height: 3.7037037037037033vw;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #59595b;
+  text-align: center;
+  padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
+    2.685185185185185vw;
+  position: absolute;
+  right: -50vw;
+  bottom: 24%;
+  z-index: 12;
+}
+.ppt3-button:active {
+  background-color: #59595b;
+  color: #ffffff;
+}
+
+
+
+// ------------------------- PPT4 ----------------------------
+// ------------------------- PPT4 ----------------------------
+// ------------------------- PPT4 ----------------------------
+
+.ppt4-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 30;
+}
+.ppt4-innerwrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url("./images/homepage-ppt4-background-mobile.png");
+  background-size: cover;
+  background-position: center;
+}
+.whitesnake-4 {
+  background-color: #ffffff;
+  padding: 1.8518518518518516vw 5.833333333333333vw 1.3888888888888888vw
+    3.2407407407407405vw;
+  color: #d62631;
+  font-size: 7.592592592592593vw;
+  font-weight: 700;
+  text-align: end;
+  position: absolute;
+  right: -100vw;
+  bottom: 34.5%;
+  z-index: 12;
+  text-transform: uppercase;
+}
+
+.ppt4-button {
+  font-size: 3.7037037037037033vw;
+  line-height: 3.7037037037037033vw;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #59595b;
+  text-align: center;
+  padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
+    2.685185185185185vw;
+  position: absolute;
+  right: -50vw;
+  bottom: 24%;
+  z-index: 12;
+}
+.ppt4-button:active {
+  background-color: #59595b;
+  color: #ffffff;
+}
+
+
+
+.footer-part{
+  width: 100%;
+  height: auto;
+  z-index: 99;
+  position: relative;
+}
+
+
+// ------------------------- SIDEBAR ----------------------------
+// ------------------------- SIDEBAR ----------------------------
+// ------------------------- SIDEBAR ----------------------------
+.sidebar-container {
+  width: 100%;
+  height: 11.87089715536105%;
+  border: 4px double red;
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+}
+
+.trigger-1,
+.trigger-2,
+.trigger-3,
+.trigger-4,
+.trigger-5,
+.trigger-6,
+.trigger-7,
+.trigger-8,
+.trigger-9,
+.trigger-10,
+.trigger-11,
+.trigger-12,
+.trigger-13,
+.trigger-14,
+.trigger-15,
+.trigger-16,
+.trigger-17,
+.trigger-18,
+.trigger-19,
+.trigger-20,
+.trigger-21,
+.trigger-22,
+.trigger-23,
+.trigger-24,
+.trigger-25,
+.trigger-26,
+.trigger-27,
+.trigger-28 {
+  height: 100vh;
+}
+
+.trigger-1 {
+  margin-top: 100vh;
+}
