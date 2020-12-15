@@ -46,12 +46,53 @@ a {
   position: relative;
 }
 
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+
+.icon-scroll {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 84%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+  transform: rotate(180deg);
+  z-index: 12;
+}
+
+.icon-scroll:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
+
 // ------------------------- PPT1 ----------------------------
 // ------------------------- PPT1 ----------------------------
 // ------------------------- PPT1 ----------------------------
 .ppt1-wrapper {
   width: 100%;
-  height: 88.12910284463895%;
+  height: 86.12910284463895%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -60,6 +101,20 @@ a {
   z-index: 10;
 }
 
+.whitesnake-start {
+  background-color: #ffffff;
+  padding: 1.7592592592592593vw 5.833333333333333vw 1.3888888888888888vw
+    4.2592592592592595vw;
+  color: #d62631;
+  font-size: 7.592592592592593vw;
+  line-height: 7.592592592592593vw;
+  font-weight: 700;
+  text-align: end;
+  position: absolute;
+  right: 34.5vw;
+  bottom: 34.20569%;
+  z-index: 11;
+}
 .whitesnake-1 {
   background-color: #ffffff;
   padding: 1.7592592592592593vw 5.833333333333333vw 1.3888888888888888vw
@@ -71,7 +126,7 @@ a {
   text-align: end;
   position: absolute;
   right: -50vw;
-  bottom: 32.20569%;
+  bottom: 34.20569%;
   z-index: 11;
 }
 
@@ -82,7 +137,7 @@ a {
   font-weight: 700;
   position: absolute;
   right: -68vw;
-  bottom: 25.5%;
+  bottom: 27.5%;
   z-index: 11;
 }
 
@@ -94,7 +149,7 @@ a {
   text-align: right;
   position: absolute;
   right: -95vw;
-  bottom: 15.5%;
+  bottom: 17.5%;
   z-index: 11;
   letter-spacing: -0.13796296296296295vw;
 }
@@ -110,7 +165,7 @@ a {
     2.685185185185185vw;
   position: absolute;
   right: -32vw;
-  bottom: 5%;
+  bottom: 7%;
   z-index: 11;
 }
 .ppt1-button-1:active {
@@ -120,11 +175,10 @@ a {
 
 .phone-container {
   position: relative;
-  top: 20%;
+  top: 8%;
   z-index: 10;
   width: 114.81481481481vw;
   height: 230.83333333333334vw;
-  border-radius: 12%;
 }
 
 .phone-innerwrapper {
@@ -140,7 +194,6 @@ a {
   top: 0;
   left: 0;
   z-index: 10;
-  border-radius: 12%;
 }
 
 .tel-viewport {
@@ -158,6 +211,7 @@ a {
   height: 100%;
   position: relative;
   border-radius: 12%;
+  overflow: hidden;
 }
 
 .ppt1-viewport-img1 {
@@ -167,6 +221,8 @@ a {
   top: 0;
   left: 0;
   z-index: 2;
+  border-radius: 12%;
+  overflow: hidden;
 }
 .ppt1-viewport-img2 {
   width: 100%;
@@ -175,6 +231,8 @@ a {
   top: 0;
   right: 0;
   z-index: 1;
+  border-radius: 12%;
+  overflow: hidden;
 }
 .ppt1-viewport-img3 {
   width: 100%;
@@ -183,6 +241,8 @@ a {
   top: 0;
   right: -100%;
   z-index: 1;
+  border-radius: 12%;
+  overflow: hidden;
 }
 .ppt1-viewport-img4 {
   width: 100%;
@@ -191,6 +251,8 @@ a {
   top: 0;
   right: -100%;
   z-index: 1;
+  border-radius: 12%;
+  overflow: hidden;
 }
 
 .ppt1-button-2 {
@@ -208,6 +270,76 @@ a {
 .ppt1-button-2:active {
   background-color: #ffffff;
   color: #6d6e71;
+}
+
+.ppt1-snake-red {
+  width: 15.277777777777779vw;
+  height: 31.944444444444443vw;
+  background-color: #d62631;
+  position: absolute;
+  right: 4.166666666666666vw;
+  top: -20vw;
+  z-index: 10;
+}
+
+.ppt1-snake-blue {
+  width: 25vw;
+  height: 15.277777777777779vw;
+  background-color: #002741;
+  position: absolute;
+  left: -20vw;
+  top: 50%;
+  z-index: 10;
+}
+
+.ppt1-snake-white {
+  width: 25vw;
+  height: 15.277777777777779vw;
+  background-color: #ffffff;
+  position: absolute;
+  left: -30vw;
+  top: 3%;
+  z-index: 9;
+}
+
+.ppt1-snake-red-2 {
+  width: 15.277777777777779vw;
+  height: 31.944444444444443vw;
+  background-color: #d62631;
+  position: absolute;
+  left: 4.166666666666666vw;
+  top: -35vw;
+  z-index: 9;
+}
+
+.ppt1-snake-blue-2 {
+  width: 25vw;
+  height: 15.277777777777779vw;
+  background-color: #002741;
+  position: absolute;
+  right: -30vw;
+  top: 75%;
+  z-index: 9;
+}
+
+.ppt1-snake-red-3 {
+  width: 15.277777777777779vw;
+  height: 42vw;
+  background-color: #d62631;
+  position: absolute;
+  right: 4.166666666666666vw;
+  bottom: -80vw;
+  z-index: 9;
+}
+
+.ppt1-snake-white-2 {
+  width: 32vw;
+  height: 15.277777777777779vw;
+  background-color: #ffffff;
+  position: absolute;
+  right: -35vw;
+  top: 3%;
+  z-index: 9;
 }
 
 // ------------------------- PPT2 ----------------------------
@@ -262,7 +394,7 @@ a {
   text-align: end;
   position: absolute;
   right: -100vw;
-  bottom: 34.5%;
+  bottom: 36.5%;
   z-index: 12;
 }
 
@@ -273,7 +405,7 @@ a {
   font-weight: 700;
   position: absolute;
   right: -100vw;
-  bottom: 25%;
+  bottom: 27%;
   z-index: 12;
   text-align: end;
 }
@@ -286,7 +418,7 @@ a {
   text-align: right;
   position: absolute;
   right: -100vw;
-  bottom: 21%;
+  bottom: 23%;
   z-index: 12;
   letter-spacing: -0.13796296296296295vw;
 }
@@ -302,7 +434,7 @@ a {
     2.685185185185185vw;
   position: absolute;
   right: -100vw;
-  bottom: 14%;
+  bottom: 16%;
   z-index: 12;
 }
 .ppt2-button-1:active {
@@ -376,7 +508,7 @@ a {
   height: 56.388888888888886vw;
   position: absolute;
   left: 100%;
-  bottom: 14%;
+  bottom: 16%;
   z-index: 11;
   & > img {
     width: 100%;
@@ -431,7 +563,7 @@ a {
   top: 200%;
   left: 75%;
 }
-.ppt2-tv-slide-2{
+.ppt2-tv-slide-2 {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -443,12 +575,42 @@ a {
   height: 56.388888888888886vw;
   position: absolute;
   left: 102%;
-  bottom: 14%;
+  bottom: 16%;
   z-index: 11;
   & > img {
     width: 100%;
     height: 100%;
   }
+}
+
+.ppt1-snake-blue-3 {
+  width: 35vw;
+  height: 15.277777777777779vw;
+  background-color: #002741;
+  position: absolute;
+  left: -42vw;
+  top: 75%;
+  z-index: 8;
+}
+
+.ppt1-snake-red-4 {
+  width: 15.277777777777779vw;
+  height: 42vw;
+  background-color: #d62631;
+  position: absolute;
+  right: 4.166666666666666vw;
+  top: -50vw;
+  z-index: 8;
+}
+.ppt1-snake-red-4-ghost {
+  width: 15.277777777777779vw;
+  height: 42vw;
+  background-color: #d62631;
+  position: absolute;
+  right: 4.166666666666666vw;
+  top: -50vw;
+  z-index: 10;
+  opacity: 0.5;
 }
 
 // ------------------------- PPT3 ----------------------------
@@ -482,7 +644,7 @@ a {
   text-align: end;
   position: absolute;
   right: -100vw;
-  bottom: 34.5%;
+  bottom: 36.5%;
   z-index: 12;
   text-transform: uppercase;
 }
@@ -498,15 +660,13 @@ a {
     2.685185185185185vw;
   position: absolute;
   right: -50vw;
-  bottom: 24%;
+  bottom: 26%;
   z-index: 12;
 }
 .ppt3-button:active {
   background-color: #59595b;
   color: #ffffff;
 }
-
-
 
 // ------------------------- PPT4 ----------------------------
 // ------------------------- PPT4 ----------------------------
@@ -539,7 +699,7 @@ a {
   text-align: end;
   position: absolute;
   right: -100vw;
-  bottom: 34.5%;
+  bottom: 36.5%;
   z-index: 12;
   text-transform: uppercase;
 }
@@ -555,7 +715,7 @@ a {
     2.685185185185185vw;
   position: absolute;
   right: -50vw;
-  bottom: 24%;
+  bottom: 26%;
   z-index: 12;
 }
 .ppt4-button:active {
@@ -563,26 +723,139 @@ a {
   color: #ffffff;
 }
 
-
-
-.footer-part{
+.footer-part {
   width: 100%;
   height: auto;
   z-index: 99;
   position: relative;
 }
 
-
 // ------------------------- SIDEBAR ----------------------------
 // ------------------------- SIDEBAR ----------------------------
 // ------------------------- SIDEBAR ----------------------------
 .sidebar-container {
-  width: 100%;
-  height: 11.87089715536105%;
-  border: 4px double red;
+  width: 96%;
+  height: 20.185185185185187vw;
   position: absolute;
-  bottom: 0;
+  left: 2%;
+  bottom: 2%;
   z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar-icon-wrapper-1,
+.sidebar-icon-wrapper-2,
+.sidebar-icon-wrapper-3,
+.sidebar-icon-wrapper-4,
+.sidebar-icon-wrapper-5 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  top: 120%;
+}
+.sidebar-marker-1,
+.sidebar-marker-2,
+.sidebar-marker-3,
+.sidebar-marker-4,
+.sidebar-marker-5 {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  padding-bottom: 13%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  left: -100%;
+  background-color: #d62631;
+  overflow: hidden;
+}
+.sidebar-marker-1-icon {
+  width: 10.092592592592593vw;
+  height: auto;
+  position: relative;
+  left: 53%;
+}
+.sidebar-marker-2-icon {
+  width: 18.14814814814815vw;
+  height: auto;
+  position: relative;
+  left: 100%;
+}
+.sidebar-marker-3-icon {
+  width: 9.444444444444445vw;
+  height: auto;
+  position: relative;
+  left: 100%;
+}
+.sidebar-marker-4-icon {
+  width: 14.629629629629628vw;
+  height: auto;
+  position: relative;
+  bottom: 11%;
+  position: relative;
+  left: 100%;
+}
+.sidebar-marker-5-icon {
+  width: 13.333333333333334vw;
+  height: auto;
+  position: relative;
+  left: 100%;
+}
+
+.sidebar-1-icon {
+  width: 10.092592592592593vw;
+  height: auto;
+  position: relative;
+  bottom: 12%;
+}
+.sidebar-2-icon {
+  width: 18.14814814814815vw;
+  height: auto;
+  position: relative;
+  bottom: 12%;
+}
+.sidebar-3-icon {
+  width: 9.444444444444445vw;
+  height: auto;
+  position: relative;
+  bottom: 12%;
+}
+.sidebar-4-icon {
+  width: 14.629629629629628vw;
+  height: auto;
+  position: relative;
+  bottom: 22%;
+  position: relative;
+}
+.sidebar-5-icon {
+  width: 13.333333333333334vw;
+  height: auto;
+  position: relative;
+  bottom: 12%;
+}
+.sidebar-color-1,
+.sidebar-color-2,
+.sidebar-color-3,
+.sidebar-color-4,
+.sidebar-color-5{
+  z-index: 2;
+  position: absolute;
+}
+.sidebar-white-1,
+.sidebar-white-2,
+.sidebar-white-3,
+.sidebar-white-4,
+.sidebar-white-5{
+  z-index: 1;
+}
+.sidebar-color-icon{
+  opacity: 0;
 }
 
 .trigger-1,
@@ -591,7 +864,6 @@ a {
 .trigger-4,
 .trigger-5,
 .trigger-6,
-.trigger-7,
 .trigger-8,
 .trigger-9,
 .trigger-10,
@@ -618,4 +890,7 @@ a {
 
 .trigger-1 {
   margin-top: 100vh;
+}
+.trigger-7 {
+  height: 1px;
 }

@@ -15,6 +15,32 @@ $(document).ready(function () {
         // ----------------------------- PPT 1 ---------------------------
         // ----------------------------- PPT 1 ---------------------------
         // ----------------------------- PPT 1 ---------------------------
+
+        gsap.to('.whitesnake-start', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top bottom',
+                endTrigger: '.trigger-3',
+                end: 'top bottom',
+                scrub: 1
+            },
+            right: "100%"
+        })
+
+        gsap.to('.icon-scroll', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top bottom',
+                endTrigger: '.trigger-3',
+                end: 'top bottom',
+                scrub: 1
+            },
+            top: "120%"
+        })
+
+
         gsap.to('.whitesnake-1', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
@@ -170,17 +196,17 @@ $(document).ready(function () {
             right: 0
         })
 
-        gsap.to('.ppt1-viewport-img3', {
-            scrollTrigger: {
-                toggleActions: 'play pause resume reset',
-                trigger: '.trigger-7',
-                start: 'top bottom',
-                endTrigger: '.trigger-8',
-                end: 'top bottom',
-                scrub: 1
-            },
-            xPercent: -100
-        })
+        // gsap.to('.ppt1-viewport-img3', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-7',
+        //         start: 'top bottom',
+        //         endTrigger: '.trigger-8',
+        //         end: 'top bottom',
+        //         scrub: 1
+        //     },
+        //     xPercent: -100
+        // })
 
         gsap.to('.ppt1-viewport-img4', {
             scrollTrigger: {
@@ -194,6 +220,90 @@ $(document).ready(function () {
             xPercent: -100
         })
 
+        gsap.to('.ppt1-snake-blue', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top bottom',
+                endTrigger: '.trigger-3',
+                end: 'top 50%',
+                scrub: 1,
+            },
+            left: "100%"
+        })
+
+        gsap.to('.ppt1-snake-red', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top bottom',
+                endTrigger: '.trigger-3',
+                end: 'top 50%',
+                scrub: 1,
+            },
+            top: "120%"
+        })
+
+        gsap.to('.ppt1-snake-white', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-4',
+                start: 'top bottom',
+                endTrigger: '.trigger-6',
+                end: 'top 50%',
+                scrub: 1,
+            },
+            left: "100%"
+        })
+
+        gsap.to('.ppt1-snake-red-2', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-4',
+                start: 'top 50%',
+                endTrigger: '.trigger-6',
+                end: 'top 50%',
+                scrub: 1,
+            },
+            top: "120%"
+        })
+
+        gsap.to('.ppt1-snake-blue-2', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-5',
+                start: 'top 50%',
+                endTrigger: '.trigger-8',
+                end: 'top 50%',
+                scrub: 1,
+            },
+            right: "100%"
+        })
+
+
+        gsap.to('.ppt1-snake-red-3', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-6',
+                start: 'top bottom',
+                endTrigger: '.trigger-9',
+                end: 'top 50%',
+                scrub: 1,
+            },
+            bottom: "100%"
+        })
+
+        gsap.to('.ppt1-snake-white-2', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-6',
+                start: 'top bottom',
+                endTrigger: '.trigger-9',
+                end: 'top 50%',
+                scrub: 1,
+            },
+            right: "100%"
+        })
 
         // ----------------------------- PPT 2 ---------------------------
         // ----------------------------- PPT 2 ---------------------------
@@ -290,10 +400,10 @@ $(document).ready(function () {
         gsap.to('.ppt2-bluebackground', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
-                trigger: '.trigger-11',
-                start: 'top 50%',
+                trigger: '.trigger-10',
+                start: 'top 25%',
                 endTrigger: '.trigger-12',
-                end: 'top top',
+                end: 'top bottom',
                 scrub: 1
             },
             width: "120%",
@@ -304,9 +414,9 @@ $(document).ready(function () {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
                 trigger: '.trigger-12',
-                start: 'top 25%',
+                start: 'top bottom',
                 endTrigger: '.trigger-12',
-                end: 'top top',
+                end: 'top 50%',
                 scrub: 1
             },
             opacity: 0
@@ -541,6 +651,42 @@ $(document).ready(function () {
 
 
 
+        gsap.to('.ppt1-snake-red-4', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-13',
+                start: 'top bottom',
+                endTrigger: '.trigger-20',
+                end: 'top 50%',
+                scrub: 1,
+            },
+            top: "120%"
+        })
+        gsap.to('.ppt1-snake-red-4-ghost', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-13',
+                start: 'top bottom',
+                endTrigger: '.trigger-20',
+                end: 'top 50%',
+                scrub: 1,
+            },
+            top: "120%"
+        })
+
+        gsap.to('.ppt1-snake-blue-3', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-12',
+                start: 'top bottom',
+                endTrigger: '.trigger-18',
+                end: 'top 50%',
+                scrub: 1,
+            },
+            left: "100%"
+        })
+
+
         // ----------------------------- PPT 3 ---------------------------
         // ----------------------------- PPT 3 ---------------------------
         // ----------------------------- PPT 3 ---------------------------
@@ -579,7 +725,7 @@ $(document).ready(function () {
             },
             right: 0
         })
-        
+
         gsap.to('.ppt3-button', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
@@ -591,7 +737,7 @@ $(document).ready(function () {
             },
             right: "5.8333vw"
         })
-        
+
         // ----------------------------- PPT 4 ---------------------------
         // ----------------------------- PPT 4 ---------------------------
         // ----------------------------- PPT 4 ---------------------------
@@ -630,7 +776,7 @@ $(document).ready(function () {
             },
             right: 0
         })
-        
+
         gsap.to('.ppt4-button', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
@@ -642,7 +788,137 @@ $(document).ready(function () {
             },
             right: "5.8333vw"
         })
-        
+
+
+        // ----------------------------- SIDEBAR ---------------------------
+        // ----------------------------- SIDEBAR ---------------------------
+        // ----------------------------- SIDEBAR ---------------------------
+
+        gsap.to('.sidebar-icon-wrapper-1', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top 80%',
+                end: 'top 75%',
+                scrub: 1
+            },
+            top: 0
+        })
+        gsap.to('.sidebar-icon-wrapper-2', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top 75%',
+                end: 'top 70%',
+                scrub: 1
+            },
+            top: 0
+        })
+        gsap.to('.sidebar-icon-wrapper-3', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top 70%',
+                end: 'top 65%',
+                scrub: 1
+            },
+            top: 0
+        })
+        gsap.to('.sidebar-icon-wrapper-4', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top 65%',
+                end: 'top 60%',
+                scrub: 1
+            },
+            top: 0
+        })
+        gsap.to('.sidebar-icon-wrapper-5', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top 60%',
+                end: 'top 55%',
+                scrub: 1
+            },
+            top: 0
+        })
+
+
+
+        gsap.to('.sidebar-color-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-3',
+                start: 'top 25%',
+                endTrigger: '.trigger-4',
+                end: 'top 75%',
+                scrub: 1
+            },
+            opacity: 1
+        })
+
+
+        gsap.to('.sidebar-color-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-9',
+                start: 'top 90%',
+                end: 'top 88%',
+                scrub: 1
+            },
+            opacity: 0
+        })
+
+        gsap.to('.sidebar-color-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-11',
+                start: 'top 85%',
+                end: 'top 80%',
+                scrub: 1
+            },
+            opacity: 1
+        })
+        gsap.to('.sidebar-color-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-20',
+                start: 'top 15%',
+                end: 'top 10%',
+                scrub: 1,
+            },
+            opacity: 0
+        })
+
+
+        // ----------------------------- SIDEBAR MARKERS ---------------------------
+        // ----------------------------- SIDEBAR MARKERS ---------------------------
+        // ----------------------------- SIDEBAR MARKERS ---------------------------
+
+        gsap.to('.sidebar-marker-1', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top 75%',
+                endTrigger: '.trigger-9',
+                end: 'top 50%',
+                scrub: 1
+            },
+            left: "100%"
+        })
+        gsap.to('.sidebar-marker-1-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top 75%',
+                endTrigger: '.trigger-9',
+                end: 'top 50%',
+                scrub: 1
+            },
+            left: "-100%"
+        })
 
 
     } else {
