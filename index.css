@@ -122,16 +122,17 @@ a {
 
 .whitesnake-start {
   background-color: #ffffff;
-  padding: 1.7592592592592593vw 5.833333333333333vw 1.3888888888888888vw 4.2592592592592595vw;
+  padding: 3.9592592592592593vw 5.833333333333333vw 3.5888888888888888vw 4.2592592592592595vw;
   color: #d62631;
   font-size: 7.592592592592593vw;
   line-height: 7.592592592592593vw;
   font-weight: 700;
   text-align: end;
   position: absolute;
-  right: 34.5vw;
+  right: 21.5vw;
   bottom: 34.20569%;
   z-index: 11;
+  white-space: nowrap;
 }
 
 .whitesnake-1 {
@@ -195,8 +196,8 @@ a {
   position: relative;
   top: 8%;
   z-index: 10;
-  width: 114.81481481481vw;
-  height: 230.83333333333334vw;
+  width: 119.81481481481vw;
+  height: 240.83333333333334vw;
 }
 
 .phone-innerwrapper {
@@ -215,11 +216,11 @@ a {
 }
 
 .tel-viewport {
-  width: 93%;
+  width: 94%;
   height: 97.5%;
   position: absolute;
   top: 1%;
-  left: 3.5%;
+  left: 3%;
   border-radius: 12%;
   overflow: hidden;
 }
@@ -303,12 +304,12 @@ a {
 }
 
 .ppt1-snake-blue {
-  width: 42vw;
+  width: 51vw;
   height: 15.277777777777779vw;
   background-color: #002741;
   position: absolute;
   left: -20vw;
-  top: 50%;
+  top: 63%;
   z-index: 10;
 }
 
@@ -599,7 +600,7 @@ a {
   height: 100%;
   position: absolute;
   top: 200%;
-  left: 75%;
+  left: 74%;
 }
 
 .ppt2-tv-slide-2 {
