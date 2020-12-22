@@ -169,6 +169,7 @@ a {
     font-size: 2.34375vw;
     line-height: 2.34375vw;
     bottom: 31%;
+    color: #002741;
   }
 }
 
@@ -187,6 +188,7 @@ a {
     font-size: 1.5625vw;
     bottom: 20.38%;
     letter-spacing: 0;
+    color: #59595b;
   }
 }
 
@@ -433,7 +435,7 @@ a {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 100%;
+  top: 120%;
   background-image: url("./images/handys_&_tafire.png");
   background-size: contain;
   background-position: top;
@@ -443,6 +445,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  @media not screen and (orientation: portrait) {
+    background-image: url("./images/handys_&_tafire-desktop.png");
+    background-size: cover;
+    background-position: top;
+  }
 }
 
 .ppt1-part2-button {
@@ -455,7 +462,20 @@ a {
   padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
     2.685185185185185vw;
   position: relative;
-  bottom: 20%;
+  bottom: 16%;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    line-height: 1.5625vw;
+    padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
+      2.2916666666666665vw;
+    position: absolute;
+    right: 5.989583333333334VW;
+    bottom: 4.4%;
+    &:hover {
+      background-color: #ffffff;
+      color: #59595b;
+    }
+  }
 }
 
 .ppt1-part2-button:active {
@@ -502,6 +522,9 @@ a {
   left: 0;
   z-index: 11;
   transform: scale(1);
+  @media not screen and (orientation: portrait) {
+    height: 100%;
+  }
 }
 
 .whitesnake-2 {
@@ -517,6 +540,13 @@ a {
   right: -100vw;
   bottom: 36.5%;
   z-index: 12;
+  @media not screen and (orientation: portrait) {
+    font-size: 2.864583333333333vw;
+    line-height: 2.864583333333333vw;
+    padding: 0.7291666666666666vw 5.989583333333334vw 0.9895833333333333vw
+      2.604166666666667vw;
+    bottom: 37.12%;
+  }
 }
 
 .ppt2-title {
@@ -529,6 +559,11 @@ a {
   bottom: 27%;
   z-index: 12;
   text-align: end;
+  @media not screen and (orientation: portrait) {
+    font-size: 2.34375vw;
+    line-height: 2.34375vw;
+    bottom: 26%;
+  }
 }
 
 .ppt2-subtitle {
@@ -542,6 +577,11 @@ a {
   bottom: 23%;
   z-index: 12;
   letter-spacing: -0.13796296296296295vw;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    bottom: 20.38%;
+    letter-spacing: 0;
+  }
 }
 
 .ppt2-button-1 {
@@ -557,6 +597,17 @@ a {
   right: -100vw;
   bottom: 16%;
   z-index: 12;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    line-height: 1.5625vw;
+    padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
+      2.2916666666666665vw;
+    bottom: 9.84%;
+    &:hover {
+      background-color: #59595b;
+      color: #ffffff;
+    }
+  }
 }
 .ppt2-button-1:active {
   background-color: #59595b;
@@ -570,6 +621,12 @@ a {
   top: 19%;
   left: -12%;
   z-index: 9;
+  @media not screen and (orientation: portrait) {
+    width: 60.26041666666667VW;
+    height: 39.427083333333336VW;
+    top: 11%;
+    left: 20.364583333333332%;
+  }
 }
 .ppt2-tv-innerwrapper {
   width: 100%;
@@ -682,7 +739,7 @@ a {
   height: 100%;
   position: absolute;
   top: 200%;
-  left: 74%;
+  left: 75%;
 }
 // .ppt2-tv-slide-2 {
 //   width: 100%;
@@ -754,6 +811,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  @media not screen and (orientation: portrait) {
+    background-image: url("./images/tv_&_entertainment_ponuda-desktop.png");
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 .ppt2-part2-button {
@@ -766,7 +828,20 @@ a {
   padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
     2.685185185185185vw;
   position: relative;
-  bottom: 20%;
+  bottom: 16%;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    line-height: 1.5625vw;
+    padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
+      2.2916666666666665vw;
+    position: absolute;
+    right: 5.989583333333334VW;
+    bottom: 4.4%;
+    &:hover {
+      background-color: #ffffff;
+      color: #59595b;
+    }
+  }
 }
 
 .ppt2-part2-button:active {
@@ -789,6 +864,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  @media not screen and (orientation: portrait) {
+    background-image: url("./images/kombi-ponuda-desktop.png");
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 .ppt2-part3-button {
@@ -801,7 +881,20 @@ a {
   padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
     2.685185185185185vw;
   position: relative;
-  bottom: 20%;
+  bottom: 16%;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    line-height: 1.5625vw;
+    padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
+      2.2916666666666665vw;
+    position: absolute;
+    right: 5.989583333333334VW;
+    bottom: 4.4%;
+    &:hover {
+      background-color: #ffffff;
+      color: #59595b;
+    }
+  }
 }
 
 .ppt2-part3-button:active {
@@ -831,6 +924,10 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  @media not screen and (orientation: portrait) {
+    background-image: url("./images/homepage-ppt3-background-desktop.png");
+    background-position: center;
+  }
 }
 .whitesnake-3 {
   background-color: #ffffff;
@@ -845,6 +942,13 @@ a {
   bottom: 36.5%;
   z-index: 12;
   text-transform: uppercase;
+  @media not screen and (orientation: portrait) {
+    font-size: 2.864583333333333vw;
+    line-height: 2.864583333333333vw;
+    padding: 0.7291666666666666vw 5.989583333333334vw 0.9895833333333333vw
+      2.604166666666667vw;
+    bottom: 37.12%;
+  }
 }
 
 .ppt3-button {
@@ -860,6 +964,17 @@ a {
   right: -50vw;
   bottom: 26%;
   z-index: 12;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    line-height: 1.5625vw;
+    padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
+      2.2916666666666665vw;
+    bottom: 18.84%;
+    &:hover {
+      background-color: #59595b;
+      color: #ffffff;
+    }
+  }
 }
 .ppt3-button:active {
   background-color: #59595b;
@@ -886,6 +1001,10 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  @media not screen and (orientation: portrait) {
+    background-image: url("./images/homepage-ppt4-background-desktop.png");
+    background-position: center;
+  }
 }
 .whitesnake-4 {
   background-color: #ffffff;
@@ -900,6 +1019,13 @@ a {
   bottom: 36.5%;
   z-index: 12;
   text-transform: uppercase;
+  @media not screen and (orientation: portrait) {
+    font-size: 2.864583333333333vw;
+    line-height: 2.864583333333333vw;
+    padding: 0.7291666666666666vw 5.989583333333334vw 0.9895833333333333vw
+      2.604166666666667vw;
+    bottom: 37.12%;
+  }
 }
 
 .ppt4-button {
@@ -915,11 +1041,23 @@ a {
   right: -50vw;
   bottom: 26%;
   z-index: 12;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    line-height: 1.5625vw;
+    padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
+      2.2916666666666665vw;
+    bottom: 18.84%;
+    &:hover {
+      background-color: #59595b;
+      color: #ffffff;
+    }
+  }
 }
 .ppt4-button:active {
   background-color: #59595b;
   color: #ffffff;
 }
+
 
 .footer-part {
   width: 100%;
