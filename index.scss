@@ -1,9 +1,4 @@
 @import url("./fonts.css");
-// @media screen and (orientation: portrait) {
-// }
-
-// @media not screen and (orientation: portrait) {
-// }
 
 * {
   margin: 0;
@@ -21,12 +16,18 @@ a {
   text-decoration: none;
 }
 
-#header {
+#header-place {
   width: 100%;
   height: 4.8%;
   position: fixed;
   top: 0;
   z-index: 100;
+  background-image: url("./images/header-mobile.png");
+  background-size: 100% 100%;
+  @media not screen and (orientation: portrait) {
+    background-image: url("./images/header-desktop.png");
+    height: 8.7%;
+  }
 }
 
 .showroom-container {
@@ -38,6 +39,10 @@ a {
   right: 0;
   bottom: 0;
   background-color: #e8e9ea;
+  @media not screen and (orientation: portrait) {
+    height: 91.3%;
+    top: 8.7%;
+  }
 }
 
 .showroom-innerwrapper {
@@ -62,6 +67,9 @@ a {
   border-radius: 25px;
   transform: rotate(180deg);
   z-index: 12;
+  @media not screen and (orientation: portrait) {
+    transform: rotate(0);
+  }
 }
 
 .icon-scroll:before {
@@ -99,6 +107,9 @@ a {
   align-items: center;
   justify-content: space-evenly;
   z-index: 10;
+  @media not screen and (orientation: portrait) {
+    height: 100%;
+  }
 }
 
 .whitesnake-start {
@@ -115,6 +126,13 @@ a {
   bottom: 34.20569%;
   z-index: 11;
   white-space: nowrap;
+  @media not screen and (orientation: portrait) {
+    font-size: 2.864583333333333vw;
+    line-height: 2.864583333333333vw;
+    padding: 0.7291666666666666vw 0.9895833333333333vw 0.9895833333333333vw
+      0.9895833333333333vw;
+    right: 40.5vw;
+  }
 }
 .whitesnake-1 {
   background-color: #ffffff;
@@ -129,6 +147,13 @@ a {
   right: -50vw;
   bottom: 34.20569%;
   z-index: 11;
+  @media not screen and (orientation: portrait) {
+    font-size: 2.864583333333333vw;
+    line-height: 2.864583333333333vw;
+    padding: 0.7291666666666666vw 5.989583333333334vw 0.9895833333333333vw
+      2.604166666666667vw;
+    bottom: 37.12%;
+  }
 }
 
 .ppt1-title {
@@ -140,6 +165,11 @@ a {
   right: -68vw;
   bottom: 27.5%;
   z-index: 11;
+  @media not screen and (orientation: portrait) {
+    font-size: 2.34375vw;
+    line-height: 2.34375vw;
+    bottom: 31%;
+  }
 }
 
 .ppt1-subtitle {
@@ -153,6 +183,11 @@ a {
   bottom: 17.5%;
   z-index: 11;
   letter-spacing: -0.13796296296296295vw;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    bottom: 20.38%;
+    letter-spacing: 0;
+  }
 }
 
 .ppt1-button-1 {
@@ -168,6 +203,17 @@ a {
   right: -32vw;
   bottom: 7%;
   z-index: 11;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    line-height: 1.5625vw;
+    padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
+      2.2916666666666665vw;
+    bottom: 9.84%;
+    &:hover {
+      background-color: #59595b;
+      color: #ffffff;
+    }
+  }
 }
 .ppt1-button-1:active {
   background-color: #59595b;
@@ -180,6 +226,10 @@ a {
   z-index: 10;
   width: 119.81481481481vw;
   height: 240.83333333333334vw;
+  @media not screen and (orientation: portrait) {
+    width: 116vw;
+    height: 64vw;
+  }
 }
 
 .phone-innerwrapper {
@@ -224,6 +274,8 @@ a {
   z-index: 2;
   border-radius: 12%;
   overflow: hidden;
+  object-fit: cover;
+  object-position: center;
 }
 .ppt1-viewport-img2 {
   width: 100%;
@@ -234,6 +286,8 @@ a {
   z-index: 1;
   border-radius: 12%;
   overflow: hidden;
+  object-fit: cover;
+  object-position: center;
 }
 .ppt1-viewport-img3 {
   width: 100%;
@@ -244,6 +298,8 @@ a {
   z-index: 1;
   border-radius: 12%;
   overflow: hidden;
+  object-fit: cover;
+  object-position: center;
 }
 .ppt1-viewport-img4 {
   width: 100%;
@@ -254,6 +310,8 @@ a {
   z-index: 1;
   border-radius: 12%;
   overflow: hidden;
+  object-fit: cover;
+  object-position: center;
 }
 
 .ppt1-button-2 {
@@ -281,6 +339,10 @@ a {
   left: 4.166666666666666vw;
   top: -12vw;
   z-index: 10;
+  @media not screen and (orientation: portrait) {
+    width: 5.833333333333333vw;
+    height: 21vw;
+  }
 }
 
 .ppt1-snake-blue {
@@ -291,6 +353,10 @@ a {
   left: -20vw;
   top: 63%;
   z-index: 10;
+  @media not screen and (orientation: portrait) {
+    width: 20vw;
+    height: 5.833333333333333vw;
+  }
 }
 
 .ppt1-snake-white {
@@ -301,6 +367,10 @@ a {
   left: -30vw;
   top: 3%;
   z-index: 9;
+  @media not screen and (orientation: portrait) {
+    width: 10vw;
+    height: 5.833333333333333vw;
+  }
 }
 
 .ppt1-snake-red-2 {
@@ -311,6 +381,10 @@ a {
   left: 4.166666666666666vw;
   top: -35vw;
   z-index: 9;
+  @media not screen and (orientation: portrait) {
+    width: 5.833333333333333vw;
+    height: 15vw;
+  }
 }
 
 .ppt1-snake-blue-2 {
@@ -321,6 +395,10 @@ a {
   right: -30vw;
   top: 75%;
   z-index: 9;
+  @media not screen and (orientation: portrait) {
+    width: 12vw;
+    height: 5.833333333333333vw;
+  }
 }
 
 .ppt1-snake-red-3 {
@@ -331,6 +409,10 @@ a {
   right: 4.166666666666666vw;
   bottom: -80vw;
   z-index: 9;
+  @media not screen and (orientation: portrait) {
+    width: 5.833333333333333vw;
+    height: 21vw;
+  }
 }
 
 .ppt1-snake-white-2 {
@@ -341,6 +423,44 @@ a {
   right: -35vw;
   top: 3%;
   z-index: 9;
+  @media not screen and (orientation: portrait) {
+    width: 20vw;
+    height: 5.833333333333333vw;
+  }
+}
+
+.ppt1-part2-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  background-image: url("./images/handys_&_tafire.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 10;
+  background-color: #e8e9ea;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.ppt1-part2-button {
+  font-size: 3.7037037037037033vw;
+  line-height: 3.7037037037037033vw;
+  font-weight: 500;
+  background-color: #6d6e71;
+  color: #ffffff;
+  text-align: center;
+  padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
+    2.685185185185185vw;
+  position: relative;
+  bottom: 20%;
+}
+
+.ppt1-part2-button:active {
+  background-color: #ffffff;
+  color: #6d6e71;
 }
 
 // ------------------------- PPT2 ----------------------------
@@ -487,35 +607,35 @@ a {
   z-index: 1;
 }
 
-.ppt2-stb {
-  width: 33.14814814814815vw;
-  height: 33.33333333333333vw;
-  position: absolute;
-  left: -50vw;
-  top: 26%;
-  z-index: 11;
-}
-.ppt2-telefon {
-  width: 24.074074074074073vw;
-  height: 34.53703703703704vw;
-  position: absolute;
-  right: -35vw;
-  top: 26%;
-  z-index: 11;
-}
+// .ppt2-stb {
+//   width: 33.14814814814815vw;
+//   height: 33.33333333333333vw;
+//   position: absolute;
+//   left: -50vw;
+//   top: 26%;
+//   z-index: 11;
+// }
+// .ppt2-telefon {
+//   width: 24.074074074074073vw;
+//   height: 34.53703703703704vw;
+//   position: absolute;
+//   right: -35vw;
+//   top: 26%;
+//   z-index: 11;
+// }
 
-.ppt2-offer-banner-1 {
-  width: 100%;
-  height: 56.388888888888886vw;
-  position: absolute;
-  left: 100%;
-  bottom: 16%;
-  z-index: 11;
-  & > img {
-    width: 100%;
-    height: 100%;
-  }
-}
+// .ppt2-offer-banner-1 {
+//   width: 100%;
+//   height: 56.388888888888886vw;
+//   position: absolute;
+//   left: 100%;
+//   bottom: 16%;
+//   z-index: 11;
+//   & > img {
+//     width: 100%;
+//     height: 100%;
+//   }
+// }
 
 .ppt2-tv-slides-container {
   width: 100%;
@@ -564,13 +684,13 @@ a {
   top: 200%;
   left: 74%;
 }
-.ppt2-tv-slide-2 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 99%;
-  top: 0;
-}
+// .ppt2-tv-slide-2 {
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   left: 99%;
+//   top: 0;
+// }
 .ppt2-offer-banner-2 {
   width: 100%;
   height: 56.388888888888886vw;
@@ -602,6 +722,9 @@ a {
   right: 4.166666666666666vw;
   top: -50vw;
   z-index: 8;
+  @media not screen and (orientation: portrait) {
+    display: none;
+  }
 }
 .ppt1-snake-red-4-ghost {
   width: 15.277777777777779vw;
@@ -612,7 +735,81 @@ a {
   top: -50vw;
   z-index: 10;
   opacity: 0.5;
+  @media not screen and (orientation: portrait) {
+    display: none;
+  }
 }
+
+.ppt2-part2-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 120%;
+  background-image: url("./images/tv_&_entertainment_.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 28;
+  background-color: #e8e9ea;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.ppt2-part2-button {
+  font-size: 3.7037037037037033vw;
+  line-height: 3.7037037037037033vw;
+  font-weight: 500;
+  background-color: #6d6e71;
+  color: #ffffff;
+  text-align: center;
+  padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
+    2.685185185185185vw;
+  position: relative;
+  bottom: 20%;
+}
+
+.ppt2-part2-button:active {
+  background-color: #ffffff;
+  color: #6d6e71;
+}
+
+
+.ppt2-part3-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 120%;
+  background-image: url("./images/kombi-ponuda-mobile.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 29;
+  background-color: #e8e9ea;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.ppt2-part3-button {
+  font-size: 3.7037037037037033vw;
+  line-height: 3.7037037037037033vw;
+  font-weight: 500;
+  background-color: #6d6e71;
+  color: #ffffff;
+  text-align: center;
+  padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
+    2.685185185185185vw;
+  position: relative;
+  bottom: 20%;
+}
+
+.ppt2-part3-button:active {
+  background-color: #ffffff;
+  color: #6d6e71;
+}
+
+
 
 // ------------------------- PPT3 ----------------------------
 // ------------------------- PPT3 ----------------------------
@@ -847,7 +1044,7 @@ a {
 .sidebar-color-2,
 .sidebar-color-3,
 .sidebar-color-4,
-.sidebar-color-5{
+.sidebar-color-5 {
   z-index: 2;
   position: absolute;
 }
@@ -855,10 +1052,10 @@ a {
 .sidebar-white-2,
 .sidebar-white-3,
 .sidebar-white-4,
-.sidebar-white-5{
+.sidebar-white-5 {
   z-index: 1;
 }
-.sidebar-color-icon{
+.sidebar-color-icon {
   opacity: 0;
 }
 
@@ -899,6 +1096,18 @@ a {
   height: 1px;
 }
 
-.trigger-9{
+.trigger-9 {
   padding-top: 50vh;
+}
+
+@media screen and (orientation: portrait) {
+  .hide-it-on-mobile {
+    display: none;
+  }
+}
+
+@media not screen and (orientation: portrait) {
+  .hide-it-on-desktop {
+    display: none;
+  }
 }

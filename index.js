@@ -162,17 +162,17 @@ $(document).ready(function () {
         })
 
 
-        gsap.to('.ppt1-viewport-img2', {
-            scrollTrigger: {
-                toggleActions: 'play pause resume reset',
-                trigger: '.trigger-5',
-                start: 'top bottom',
-                endTrigger: '.trigger-6',
-                end: 'top bottom',
-                scrub: 1
-            },
-            right: "100%"
-        })
+        // gsap.to('.ppt1-viewport-img2', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-5',
+        //         start: 'top bottom',
+        //         endTrigger: '.trigger-6',
+        //         end: 'top bottom',
+        //         scrub: 1
+        //     },
+        //     right: "100%"
+        // })
         gsap.to('.ppt1-button-2 ', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
@@ -184,17 +184,17 @@ $(document).ready(function () {
             opacity: 1
         })
 
-        gsap.to('.ppt1-viewport-img3', {
-            scrollTrigger: {
-                toggleActions: 'play pause resume reset',
-                trigger: '.trigger-5',
-                start: 'top bottom',
-                endTrigger: '.trigger-6',
-                end: 'top bottom',
-                scrub: 1
-            },
-            right: 0
-        })
+        // gsap.to('.ppt1-viewport-img3', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-5',
+        //         start: 'top bottom',
+        //         endTrigger: '.trigger-6',
+        //         end: 'top bottom',
+        //         scrub: 1
+        //     },
+        //     right: 0
+        // })
 
         // gsap.to('.ppt1-viewport-img3', {
         //     scrollTrigger: {
@@ -208,17 +208,17 @@ $(document).ready(function () {
         //     xPercent: -100
         // })
 
-        gsap.to('.ppt1-viewport-img4', {
-            scrollTrigger: {
-                toggleActions: 'play pause resume reset',
-                trigger: '.trigger-7',
-                start: 'top bottom',
-                endTrigger: '.trigger-8',
-                end: 'top bottom',
-                scrub: 1
-            },
-            xPercent: -100
-        })
+        // gsap.to('.ppt1-viewport-img4', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-7',
+        //         start: 'top bottom',
+        //         endTrigger: '.trigger-8',
+        //         end: 'top bottom',
+        //         scrub: 1
+        //     },
+        //     xPercent: -100
+        // })
 
         gsap.to('.ppt1-snake-blue', {
             scrollTrigger: {
@@ -305,6 +305,37 @@ $(document).ready(function () {
             right: "100%"
         })
 
+
+        // ----------------------------- PPT1 part 2 ---------------------------------
+        // ----------------------------- PPT1 part 2 ---------------------------------
+        // ----------------------------- PPT1 part 2 ---------------------------------
+
+        gsap.to('.ppt1-wrapper', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-6',
+                start: 'top bottom',
+                endTrigger: '.trigger-7',
+                end: 'top bottom',
+                scrub: 1,
+            },
+            opacity: 0
+        })
+        gsap.to('.ppt1-part2-container', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-6',
+                start: 'top bottom',
+                endTrigger: '.trigger-7',
+                end: 'top bottom',
+                scrub: 1,
+            },
+            top: 0
+        })
+
+
+
+
         // ----------------------------- PPT 2 ---------------------------
         // ----------------------------- PPT 2 ---------------------------
         // ----------------------------- PPT 2 ---------------------------
@@ -319,13 +350,13 @@ $(document).ready(function () {
             },
             top: 0
         })
-        gsap.to('.ppt1-wrapper', {
+        gsap.to('.ppt1-part2-container', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
                 trigger: '.trigger-9',
                 start: 'top bottom',
                 end: 'top 50%',
-                scrub: 1
+                scrub: 1,
             },
             opacity: 0
         })
@@ -480,44 +511,44 @@ $(document).ready(function () {
             width: '96.38888888888889VW',
             height: '63.14814814814815VW',
             left: '1.8VW',
-            top: '8%'
+            top: '20%'
         })
 
-        gsap.to('.ppt2-telefon', {
-            scrollTrigger: {
-                toggleActions: 'play pause resume reset',
-                trigger: '.trigger-14',
-                start: 'top top',
-                endTrigger: '.trigger-15',
-                end: 'top top',
-                scrub: 1,
-            },
-            right: '0'
-        })
+        // gsap.to('.ppt2-telefon', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-14',
+        //         start: 'top top',
+        //         endTrigger: '.trigger-15',
+        //         end: 'top top',
+        //         scrub: 1,
+        //     },
+        //     right: '0'
+        // })
 
-        gsap.to('.ppt2-stb', {
-            scrollTrigger: {
-                toggleActions: 'play pause resume reset',
-                trigger: '.trigger-15',
-                start: 'top 50%',
-                endTrigger: '.trigger-16',
-                end: 'top top',
-                scrub: 1,
-            },
-            left: '3.5185185185185186VW'
-        })
+        // gsap.to('.ppt2-stb', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-15',
+        //         start: 'top 50%',
+        //         endTrigger: '.trigger-16',
+        //         end: 'top top',
+        //         scrub: 1,
+        //     },
+        //     left: '3.5185185185185186VW'
+        // })
 
-        gsap.to('.ppt2-offer-banner-1', {
-            scrollTrigger: {
-                toggleActions: 'play pause resume reset',
-                trigger: '.trigger-15',
-                start: 'top 50%',
-                endTrigger: '.trigger-16',
-                end: 'top top',
-                scrub: 1,
-            },
-            left: '0'
-        })
+        // gsap.to('.ppt2-offer-banner-1', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-15',
+        //         start: 'top 50%',
+        //         endTrigger: '.trigger-16',
+        //         end: 'top top',
+        //         scrub: 1,
+        //     },
+        //     left: '0'
+        // })
 
 
         gsap.to('.ppt2-tv-slide1-column1', {
@@ -576,78 +607,127 @@ $(document).ready(function () {
             scale: 0
         })
 
-        gsap.to('.ppt2-telefon', {
+        gsap.to('.ppt2-part2-wrapper', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
-                trigger: '.trigger-17',
+                trigger: '.trigger-15',
                 start: 'top top',
-                endTrigger: '.trigger-18',
+                endTrigger: '.trigger-16',
                 end: 'top top',
                 scrub: 1,
             },
-            xPercent: 150
+            top: '0'
         })
-
-        gsap.to('.ppt2-stb', {
+        gsap.to('.ppt2-container', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
-                trigger: '.trigger-17',
+                trigger: '.trigger-15',
                 start: 'top top',
-                endTrigger: '.trigger-18',
+                endTrigger: '.trigger-16',
                 end: 'top top',
                 scrub: 1,
             },
-            xPercent: -150
+            opacity: 0
         })
 
 
 
-        gsap.to('.ppt2-tv-slide-2', {
+
+        gsap.to('.ppt2-part3-wrapper', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
                 trigger: '.trigger-18',
                 start: 'top bottom',
                 endTrigger: '.trigger-19',
                 end: 'top top',
-                scrub: 1,
+                scrub: 1
             },
-            left: 0
+            top: 0
         })
-        gsap.to('.ppt2-tv-slide-1', {
+        gsap.to('.ppt2-part2-wrapper', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
                 trigger: '.trigger-18',
                 start: 'top bottom',
                 endTrigger: '.trigger-19',
                 end: 'top top',
-                scrub: 1,
+                scrub: 1
             },
-            left: "-100%"
+            opacity: 0
         })
 
+        // gsap.to('.ppt2-telefon', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-17',
+        //         start: 'top top',
+        //         endTrigger: '.trigger-18',
+        //         end: 'top top',
+        //         scrub: 1,
+        //     },
+        //     xPercent: 150
+        // })
 
-        gsap.to('.ppt2-offer-banner-2', {
-            scrollTrigger: {
-                toggleActions: 'play pause resume reset',
-                trigger: '.trigger-18',
-                start: 'top bottom',
-                endTrigger: '.trigger-19',
-                end: 'top top',
-                scrub: 1,
-            },
-            left: 0
-        })
-        gsap.to('.ppt2-offer-banner-1', {
-            scrollTrigger: {
-                toggleActions: 'play pause resume reset',
-                trigger: '.trigger-18',
-                start: 'top bottom',
-                endTrigger: '.trigger-19',
-                end: 'top top',
-                scrub: 1,
-            },
-            xPercent: -102
-        })
+        // gsap.to('.ppt2-stb', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-17',
+        //         start: 'top top',
+        //         endTrigger: '.trigger-18',
+        //         end: 'top top',
+        //         scrub: 1,
+        //     },
+        //     xPercent: -150
+        // })
+
+
+
+        // gsap.to('.ppt2-tv-slide-2', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-18',
+        //         start: 'top bottom',
+        //         endTrigger: '.trigger-19',
+        //         end: 'top top',
+        //         scrub: 1,
+        //     },
+        //     left: 0
+        // })
+        // gsap.to('.ppt2-tv-slide-1', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-18',
+        //         start: 'top bottom',
+        //         endTrigger: '.trigger-19',
+        //         end: 'top top',
+        //         scrub: 1,
+        //     },
+        //     left: "-100%"
+        // })
+
+
+        // gsap.to('.ppt2-offer-banner-2', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-18',
+        //         start: 'top bottom',
+        //         endTrigger: '.trigger-19',
+        //         end: 'top top',
+        //         scrub: 1,
+        //     },
+        //     left: 0
+        // })
+        // gsap.to('.ppt2-offer-banner-1', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-18',
+        //         start: 'top bottom',
+        //         endTrigger: '.trigger-19',
+        //         end: 'top top',
+        //         scrub: 1,
+        //     },
+        //     xPercent: -102
+        // })
 
 
 
@@ -686,6 +766,18 @@ $(document).ready(function () {
             left: "100%"
         })
 
+        // gsap.to('.ppt2-part2-button', {
+        //     scrollTrigger: {
+        //         toggleActions: 'play pause resume reset',
+        //         trigger: '.trigger-14',
+        //         start: 'top 50%',
+        //         endTrigger: '.trigger-16',
+        //         end: 'top bottom',
+        //         scrub: 1,
+        //     },
+        //     left: "35%"
+        // })
+
 
         // ----------------------------- PPT 3 ---------------------------
         // ----------------------------- PPT 3 ---------------------------
@@ -702,7 +794,7 @@ $(document).ready(function () {
             },
             top: 0
         })
-        gsap.to('.ppt2-container', {
+        gsap.to('.ppt2-part3-wrapper', {
             scrollTrigger: {
                 toggleActions: 'play pause resume reset',
                 trigger: '.trigger-20',
@@ -1162,6 +1254,139 @@ $(document).ready(function () {
         // ----------------------------- LANDSCAPE ---------------------------
         // ----------------------------- LANDSCAPE ---------------------------
         // ----------------------------- LANDSCAPE ---------------------------
+        
+        
+        
+        // ----------------------------- PPT 1 ---------------------------
+        // ----------------------------- PPT 1 ---------------------------
+        // ----------------------------- PPT 1 ---------------------------
+
+        gsap.to('.whitesnake-start', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top bottom',
+                endTrigger: '.trigger-3',
+                end: 'top bottom',
+                scrub: 1
+            },
+            right: "100%"
+        })
+        gsap.to('.icon-scroll', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top bottom',
+                endTrigger: '.trigger-2',
+                end: 'top bottom',
+                scrub: 1
+            },
+            top: "120%"
+        })
+
+        gsap.to('.whitesnake-1', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top bottom',
+                endTrigger: '.trigger-2',
+                end: 'top bottom',
+                scrub: 1
+            },
+            right: 0
+        })
+        gsap.to('.ppt1-title', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top bottom',
+                endTrigger: '.trigger-2',
+                end: 'top bottom',
+                scrub: 1
+            },
+            right: "5.833333333333333vw"
+        })
+        gsap.to('.ppt1-subtitle', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top bottom',
+                endTrigger: '.trigger-2',
+                end: 'top bottom',
+                scrub: 1
+            },
+            right: "5.833333333333333vw"
+        })
+        gsap.to('.ppt1-button-1', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-1',
+                start: 'top bottom',
+                endTrigger: '.trigger-2',
+                end: 'top bottom',
+                scrub: 1
+            },
+            right: "5.833333333333333vw"
+        })
+
+        gsap.to('.phone-container', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-3',
+                start: 'top bottom',
+                endTrigger: '.trigger-5',
+                end: 'top bottom',
+                scrub: 1
+            },
+            width: "20.416666666666668VW",
+            height: "42.34375VW",
+            top: "9%"
+        })
+        gsap.to('.whitesnake-1', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-3',
+                start: 'top 50%',
+                endTrigger: '.trigger-4',
+                end: 'top bottom',
+                scrub: 1
+            },
+            xPercent: 100
+        })
+        gsap.to('.ppt1-title', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-3',
+                start: 'top bottom',
+                endTrigger: '.trigger-4',
+                end: 'top bottom',
+                scrub: 1
+            },
+            xPercent: 125
+        })
+        gsap.to('.ppt1-subtitle', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-3',
+                start: 'top bottom',
+                endTrigger: '.trigger-4',
+                end: 'top bottom',
+                scrub: 1
+            },
+            xPercent: 125
+        })
+        gsap.to('.ppt1-button-1', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-3',
+                start: 'top bottom',
+                endTrigger: '.trigger-4',
+                end: 'top bottom',
+                scrub: 1
+            },
+            xPercent: 150
+        })
+
     }
 
 
