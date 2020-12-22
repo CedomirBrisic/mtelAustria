@@ -511,6 +511,9 @@ a {
   left: 0;
   z-index: 10;
   transform: scale(1);
+  @media not screen and (orientation: portrait) {
+    height: 100%;
+  }
 }
 .ppt2-bluebackground-after {
   width: 100%;
