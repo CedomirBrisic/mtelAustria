@@ -469,7 +469,7 @@ a {
     padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
       2.2916666666666665vw;
     position: absolute;
-    right: 5.989583333333334VW;
+    right: 5.989583333333334vw;
     bottom: 4.4%;
     &:hover {
       background-color: #ffffff;
@@ -625,8 +625,8 @@ a {
   left: -12%;
   z-index: 9;
   @media not screen and (orientation: portrait) {
-    width: 60.26041666666667VW;
-    height: 39.427083333333336VW;
+    width: 60.26041666666667vw;
+    height: 39.427083333333336vw;
     top: 11%;
     left: 20.364583333333332%;
   }
@@ -809,11 +809,11 @@ a {
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
-  z-index: 28;
-  background-color: #e8e9ea;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  z-index: 28;
+  background-color: #e8e9ea;
   @media not screen and (orientation: portrait) {
     background-image: url("./images/tv_&_entertainment_ponuda-desktop.png");
     background-position: center;
@@ -838,7 +838,7 @@ a {
     padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
       2.2916666666666665vw;
     position: absolute;
-    right: 5.989583333333334VW;
+    right: 5.989583333333334vw;
     bottom: 4.4%;
     &:hover {
       background-color: #ffffff;
@@ -851,7 +851,6 @@ a {
   background-color: #ffffff;
   color: #6d6e71;
 }
-
 
 .ppt2-part3-wrapper {
   width: 100%;
@@ -873,6 +872,114 @@ a {
     background-size: cover;
   }
 }
+.ppt2-part3-wrapper-after {
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/homepage-combi-paket-mobile.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  @media not screen and (orientation: portrait) {
+    background-image: url("./images/homepage-combi-paket-desktop.png");
+  }
+}
+
+.ppt2-part3-after-innerwrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.whitesnake-combi {
+  background-color: #ffffff;
+  padding: 1.8518518518518516vw 5.833333333333333vw 1.3888888888888888vw
+    3.2407407407407405vw;
+  color: #d62631;
+  font-size: 7.592592592592593vw;
+  line-height: 7.592592592592593vw;
+  font-weight: 700;
+  text-align: end;
+  position: absolute;
+  right: -100vw;
+  bottom: 36.5%;
+  z-index: 12;
+  @media not screen and (orientation: portrait) {
+    font-size: 2.864583333333333vw;
+    line-height: 2.864583333333333vw;
+    padding: 0.7291666666666666vw 5.989583333333334vw 0.9895833333333333vw
+      2.604166666666667vw;
+    bottom: 37.12%;
+  }
+}
+
+.combi-title {
+  color: #ffffff;
+  font-size: 6.018518518518518vw;
+  line-height: 7.4vw;
+  font-weight: 700;
+  position: absolute;
+  right: -100vw;
+  bottom: 27%;
+  z-index: 12;
+  text-align: end;
+  @media not screen and (orientation: portrait) {
+    font-size: 2.34375vw;
+    line-height: 2.34375vw;
+    bottom: 26%;
+  }
+}
+
+.combi-subtitle {
+  color: #ffffff;
+  font-size: 4.62962962962963vw;
+  line-height: normal;
+  font-weight: 500;
+  text-align: right;
+  position: absolute;
+  right: -100vw;
+  bottom: 23%;
+  z-index: 12;
+  letter-spacing: -0.13796296296296295vw;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    bottom: 20.38%;
+    letter-spacing: 0;
+  }
+}
+
+.combi-button {
+  font-size: 3.7037037037037033vw;
+  line-height: 3.7037037037037033vw;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #59595b;
+  text-align: center;
+  padding: 2.4074074074074074vw 2.1296296296296298vw 2.8703703703703702vw
+    2.685185185185185vw;
+  position: absolute;
+  right: -100vw;
+  bottom: 16%;
+  z-index: 12;
+  @media not screen and (orientation: portrait) {
+    font-size: 1.5625vw;
+    line-height: 1.5625vw;
+    padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
+      2.2916666666666665vw;
+    bottom: 9.84%;
+    &:hover {
+      background-color: #59595b;
+      color: #ffffff;
+    }
+  }
+}
+.combi-button:active {
+  background-color: #59595b;
+  color: #ffffff;
+}
 
 .ppt2-part3-button {
   font-size: 3.7037037037037033vw;
@@ -891,7 +998,7 @@ a {
     padding: 0.9895833333333333vw 2.2916666666666665vw 1.1979166666666667vw
       2.2916666666666665vw;
     position: absolute;
-    right: 5.989583333333334VW;
+    right: 5.989583333333334vw;
     bottom: 4.4%;
     &:hover {
       background-color: #ffffff;
@@ -904,8 +1011,6 @@ a {
   background-color: #ffffff;
   color: #6d6e71;
 }
-
-
 
 // ------------------------- PPT3 ----------------------------
 // ------------------------- PPT3 ----------------------------
@@ -1061,7 +1166,6 @@ a {
   color: #ffffff;
 }
 
-
 .footer-part {
   width: 100%;
   height: auto;
@@ -1082,6 +1186,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media not screen and (orientation: portrait) {
+    width: 5.989583333333334vw;
+    height: 27.083333333333332vw;
+    left: 0;
+    top: 12.239583333333332vw;
+    flex-direction: column;
+  }
 }
 .sidebar-icon-wrapper-1,
 .sidebar-icon-wrapper-2,
@@ -1096,6 +1207,13 @@ a {
   position: relative;
   overflow: hidden;
   top: 120%;
+  @media not screen and (orientation: portrait) {
+    width: 100%;
+    height: 20%;
+    top: 0;
+    left: -100%;
+    align-items: center;
+  }
 }
 .sidebar-marker-1,
 .sidebar-marker-2,
@@ -1113,6 +1231,12 @@ a {
   left: -101%;
   background-color: #d62631;
   overflow: hidden;
+  @media not screen and (orientation: portrait) {
+    left: 0;
+    bottom: 101%;
+    padding-bottom: 0;
+    align-items: center;
+  }
 }
 
 .sidebar-marker-1-icon {
@@ -1120,6 +1244,11 @@ a {
   height: auto;
   position: relative;
   left: 101%;
+  @media not screen and (orientation: portrait) {
+    width: 2.7604166666666665vw;
+    left: 0;
+    bottom: -101%;
+  }
 }
 .sidebar-marker-2-icon {
   width: 18.14814814814815vw;
@@ -1127,20 +1256,34 @@ a {
   position: relative;
   bottom: 1%;
   left: 101%;
+  @media not screen and (orientation: portrait) {
+    width: 4.947916666666666vw;
+    left: 0;
+    bottom: -101%;
+  }
 }
 .sidebar-marker-3-icon {
   width: 9.444444444444445vw;
   height: auto;
   position: relative;
   left: 101%;
+  @media not screen and (orientation: portrait) {
+    width: 2.604166666666667vw;
+    left: 0;
+    bottom: -101%;
+  }
 }
 .sidebar-marker-4-icon {
   width: 14.629629629629628vw;
   height: auto;
   position: relative;
   bottom: 12%;
-  position: relative;
   left: 101%;
+  @media not screen and (orientation: portrait) {
+    width: 3.958333333333333vw;
+    left: 0;
+    bottom: -101%;
+  }
 }
 .sidebar-marker-5-icon {
   width: 13.333333333333334vw;
@@ -1148,6 +1291,11 @@ a {
   position: relative;
   bottom: 1%;
   left: 101%;
+  @media not screen and (orientation: portrait) {
+    width: 3.6458333333333335vw;
+    left: 0;
+    bottom: -101%;
+  }
 }
 
 .sidebar-1-icon {
@@ -1155,18 +1303,30 @@ a {
   height: auto;
   position: relative;
   bottom: 12%;
+  @media not screen and (orientation: portrait) {
+    width: 2.7604166666666665vw;
+    bottom: 10%;
+  }
 }
 .sidebar-2-icon {
   width: 18.14814814814815vw;
   height: auto;
   position: relative;
   bottom: 12%;
+  @media not screen and (orientation: portrait) {
+    width: 4.947916666666666vw;
+    bottom: 10%;
+  }
 }
 .sidebar-3-icon {
   width: 9.444444444444445vw;
   height: auto;
   position: relative;
   bottom: 12%;
+  @media not screen and (orientation: portrait) {
+    width: 2.604166666666667vw;
+    bottom: 10%;
+  }
 }
 .sidebar-4-icon {
   width: 14.629629629629628vw;
@@ -1174,12 +1334,20 @@ a {
   position: relative;
   bottom: 22%;
   position: relative;
+  @media not screen and (orientation: portrait) {
+    width: 3.958333333333333vw;
+    bottom: 15%;
+  }
 }
 .sidebar-5-icon {
   width: 13.333333333333334vw;
   height: auto;
   position: relative;
   bottom: 12%;
+  @media not screen and (orientation: portrait) {
+    width: 3.6458333333333335vw;
+    bottom: 10%;
+  }
 }
 .sidebar-color-1,
 .sidebar-color-2,
@@ -1188,6 +1356,7 @@ a {
 .sidebar-color-5 {
   z-index: 2;
   position: absolute;
+  
 }
 .sidebar-white-1,
 .sidebar-white-2,
@@ -1195,9 +1364,14 @@ a {
 .sidebar-white-4,
 .sidebar-white-5 {
   z-index: 1;
+  position: absolute;
+
 }
 .sidebar-color-icon {
   opacity: 0;
+  @media not screen and (orientation: portrait) {
+    opacity: 1;
+  }
 }
 
 .trigger-1,
@@ -1215,9 +1389,11 @@ a {
 .trigger-14,
 .trigger-15,
 .trigger-16,
+.trigger-16a,
 .trigger-17,
 .trigger-18,
 .trigger-19,
+.trigger-19a,
 .trigger-20,
 .trigger-21,
 .trigger-22,

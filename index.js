@@ -656,6 +656,61 @@ $(document).ready(function () {
             opacity: 0
         })
 
+        gsap.to('.whitesnake-combi', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-19',
+                start: 'top bottom',
+                end: 'top top',
+                scrub: 1
+            },
+            right: 0
+        })
+        gsap.to('.combi-title', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-19',
+                start: 'top bottom',
+                end: 'top top',
+                scrub: 1
+            },
+            right: "5.8333vw"
+        })
+        gsap.to('.combi-subtitle', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-19',
+                start: 'top bottom',
+                end: 'top top',
+                scrub: 1
+            },
+            right: "5.8333vw"
+        })
+        gsap.to('.combi-button', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-19',
+                start: 'top bottom',
+                end: 'top top',
+                scrub: 1
+            },
+            right: "5.8333vw"
+        })
+
+        gsap.to('.ppt2-part3-wrapper-after', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-19a',
+                start: 'top 20%',
+                end: 'top 20%',
+                scrub: 1
+            },
+            opacity: 0,
+            top: "120%"
+        })
+
+
+
         // gsap.to('.ppt2-telefon', {
         //     scrollTrigger: {
         //         toggleActions: 'play pause resume reset',
@@ -1254,9 +1309,9 @@ $(document).ready(function () {
         // ----------------------------- LANDSCAPE ---------------------------
         // ----------------------------- LANDSCAPE ---------------------------
         // ----------------------------- LANDSCAPE ---------------------------
-        
-        
-        
+
+
+
         // ----------------------------- PPT 1 ---------------------------
         // ----------------------------- PPT 1 ---------------------------
         // ----------------------------- PPT 1 ---------------------------
@@ -1505,7 +1560,7 @@ $(document).ready(function () {
                 end: 'top 25%',
                 scrub: 1
             },
-            opacity: 0,
+            opacity: 0
         })
         gsap.to('.ppt2-bluebackground-after', {
             scrollTrigger: {
@@ -1682,6 +1737,63 @@ $(document).ready(function () {
             opacity: 0
         })
 
+        gsap.to('.whitesnake-combi', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-15',
+                start: 'top top',
+                endTrigger: '.trigger-16',
+                end: 'top top',
+                scrub: 1
+            },
+            right: 0
+        })
+        gsap.to('.combi-title', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-15',
+                start: 'top top',
+                endTrigger: '.trigger-16',
+                end: 'top top',
+                scrub: 1
+            },
+            right: "5.8333vw"
+        })
+        gsap.to('.combi-subtitle', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-15',
+                start: 'top top',
+                endTrigger: '.trigger-16',
+                end: 'top top',
+                scrub: 1
+            },
+            right: "5.8333vw"
+        })
+        gsap.to('.combi-button', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-15',
+                start: 'top top',
+                endTrigger: '.trigger-16',
+                end: 'top top',
+                scrub: 1
+            },
+            right: "5.8333vw"
+        })
+
+        gsap.to('.ppt2-part3-wrapper-after', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-16a',
+                start: 'top 50%',
+                end: 'top 50%',
+                scrub: 1
+            },
+            opacity: 0,
+            top: "120%"
+        })
+
 
         // ----------------------------- PPT 3 ---------------------------
         // ----------------------------- PPT 3 ---------------------------
@@ -1788,6 +1900,369 @@ $(document).ready(function () {
 
 
 
+        // ----------------------------- SIDEBAR ---------------------------
+        // ----------------------------- SIDEBAR ---------------------------
+        // ----------------------------- SIDEBAR ---------------------------
+
+        gsap.to('.sidebar-icon-wrapper-1', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-2',
+                start: 'top 90%',
+                end: 'top 80%',
+                scrub: 1
+            },
+            left: 0
+        })
+        gsap.to('.sidebar-icon-wrapper-2', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-2',
+                start: 'top 80%',
+                end: 'top 70%',
+                scrub: 1
+            },
+            left: 0
+        })
+        gsap.to('.sidebar-icon-wrapper-3', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-2',
+                start: 'top 70%',
+                end: 'top 60%',
+                scrub: 1
+            },
+            left: 0
+        })
+        gsap.to('.sidebar-icon-wrapper-4', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-2',
+                start: 'top 60%',
+                end: 'top 50%',
+                scrub: 1
+            },
+            left: 0
+        })
+        gsap.to('.sidebar-icon-wrapper-5', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-2',
+                start: 'top 50%',
+                end: 'top 40%',
+                scrub: 1
+            },
+            left: 0
+        })
+
+
+
+        gsap.to('.sidebar-color-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-8',
+                start: 'top 50%',
+                end: 'top top',
+                scrub: 1
+            },
+            opacity: 0
+        })
+
+        gsap.to('.sidebar-color-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-10',
+                start: 'top 50%',
+                end: 'top 25%',
+                scrub: 1
+            },
+            opacity: 1
+        })
+
+        gsap.to('.sidebar-color-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-15',
+                start: 'top top',
+                endTrigger: '.trigger-16',
+                end: 'top top',
+                scrub: 1
+            },
+            opacity: 0
+        })
+
+        gsap.to('.sidebar-color-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-16a',
+                start: 'top 50%',
+                end: 'top 50%',
+                scrub: 1
+            },
+            opacity: 1
+        })
+
+        gsap.to('.sidebar-color-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-17',
+                start: 'top 50%',
+                endTrigger: '.trigger-18',
+                end: 'top top',
+                scrub: 1
+            },
+            opacity: 0
+        })
+
+
+        // ----------------------------- SIDEBAR MARKERS ---------------------------
+        // ----------------------------- SIDEBAR MARKERS ---------------------------
+        // ----------------------------- SIDEBAR MARKERS ---------------------------
+
+        gsap.to('.sidebar-marker-1', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-2',
+                start: 'top 40%',
+                endTrigger: '.trigger-3',
+                end: 'top top',
+                scrub: 1
+            },
+            bottom: 0
+        })
+        gsap.to('.sidebar-marker-1-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-2',
+                start: 'top 40%',
+                endTrigger: '.trigger-3',
+                end: 'top top',
+                scrub: 1
+            },
+            bottom: 0
+        })
+        // ------------------------------------------------------------------------
+
+
+        gsap.to('.sidebar-marker-1', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-8',
+                start: 'top 50%',
+                end: 'top top',
+                scrub: 1
+            },
+            yPercent: 101
+        })
+        gsap.to('.sidebar-marker-1-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-8',
+                start: 'top 50%',
+                end: 'top top',
+                scrub: 1
+            },
+            yPercent: -125
+        })
+
+
+        gsap.to('.sidebar-marker-2', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-8',
+                start: 'top 50%',
+                end: 'top top',
+                scrub: 1
+            },
+            bottom: 0
+        })
+        gsap.to('.sidebar-marker-2-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-8',
+                start: 'top 50%',
+                end: 'top top',
+                scrub: 1
+            },
+            bottom: 0
+        })
+
+        // ------------------------------------------------------------------------
+
+        gsap.to('.sidebar-marker-2', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-15',
+                start: 'top top',
+                endTrigger: '.trigger-16',
+                end: 'top top',
+                scrub: 1
+            },
+            yPercent: 101
+        })
+        gsap.to('.sidebar-marker-2-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-15',
+                start: 'top top',
+                endTrigger: '.trigger-16',
+                end: 'top top',
+                scrub: 1
+            },
+            yPercent: -135
+        })
+
+        gsap.to('.sidebar-marker-3', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-15',
+                start: 'top top',
+                endTrigger: '.trigger-16',
+                end: 'top top',
+                scrub: 1
+            },
+            bottom: 0
+        })
+        gsap.to('.sidebar-marker-3-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-15',
+                start: 'top top',
+                endTrigger: '.trigger-16',
+                end: 'top top',
+                scrub: 1
+            },
+            bottom: 0
+        })
+
+
+        // ------------------------------------------------------------------------
+
+        gsap.to('.sidebar-marker-3', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-17',
+                start: 'top 50%',
+                endTrigger: '.trigger-18',
+                end: 'top top',
+                scrub: 1
+            },
+            yPercent: 101
+        })
+        gsap.to('.sidebar-marker-3-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-17',
+                start: 'top 50%',
+                endTrigger: '.trigger-18',
+                end: 'top top',
+                scrub: 1
+            },
+            yPercent: -125
+        })
+
+        gsap.to('.sidebar-marker-4', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-17',
+                start: 'top 50%',
+                endTrigger: '.trigger-18',
+                end: 'top top',
+                scrub: 1
+            },
+            bottom: 0
+        })
+        gsap.to('.sidebar-marker-4-icon', {
+            scrollTrigger: {
+                toggleActions: 'play pause resume reset',
+                trigger: '.trigger-17',
+                start: 'top 50%',
+                endTrigger: '.trigger-18',
+                end: 'top top',
+                scrub: 1
+            },
+            bottom: 0
+        })
+
+   // ------------------------------------------------------------------------
+
+   gsap.to('.sidebar-marker-4', {
+    scrollTrigger: {
+        toggleActions: 'play pause resume reset',
+        trigger: '.trigger-19',
+        start: 'top top',
+        endTrigger: '.trigger-21',
+        end: 'top 50%',
+        scrub: 1
+    },
+    yPercent: 101
+})
+gsap.to('.sidebar-marker-4-icon', {
+    scrollTrigger: {
+        toggleActions: 'play pause resume reset',
+        trigger: '.trigger-19',
+        start: 'top top',
+        endTrigger: '.trigger-21',
+        end: 'top 50%',
+        scrub: 1
+    },
+    yPercent: -150
+})
+
+gsap.to('.sidebar-marker-5', {
+    scrollTrigger: {
+        toggleActions: 'play pause resume reset',
+        trigger: '.trigger-19',
+        start: 'top top',
+        endTrigger: '.trigger-21',
+        end: 'top 50%',
+        scrub: 1
+    },
+    bottom: 0
+})
+gsap.to('.sidebar-marker-5-icon', {
+    scrollTrigger: {
+        toggleActions: 'play pause resume reset',
+        trigger: '.trigger-19',
+        start: 'top top',
+        endTrigger: '.trigger-21',
+        end: 'top 50%',
+        scrub: 1
+    },
+    bottom: 0
+})
+
+
+$(".sidebar-icon-wrapper-1").click(function () {
+    gsap.to(window, {
+        duration: 0,
+        scrollTo: ".sidebar-target-1-desktop"
+    });
+});
+$(".sidebar-icon-wrapper-2").click(function () {
+    gsap.to(window, {
+        duration: 0,
+        scrollTo: ".sidebar-target-2"
+    });
+});
+$(".sidebar-icon-wrapper-3").click(function () {
+    gsap.to(window, {
+        duration: 0,
+        scrollTo: ".sidebar-target-3-desktop"
+    });
+});
+$(".sidebar-icon-wrapper-4").click(function () {
+    gsap.to(window, {
+        duration: 0,
+        scrollTo: ".sidebar-target-4-desktop"
+    });
+});
+$(".sidebar-icon-wrapper-5").click(function () {
+    gsap.to(window, {
+        duration: 0,
+        scrollTo: ".sidebar-target-5-desktop"
+    });
+});
 
 
     }
